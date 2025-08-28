@@ -37,6 +37,7 @@ namespace BibliotecaSubmarino
         public int QtdResgatados { get { return _qtdResgatados; } }
         public int QtdTripulantes { get { return _qtdTripulantes; } }
         public double NivelProfundidade { get { return _nivelProfundidade; } }
+        public string OceanoAtual { get { return _oceanoAtual; } }
         public int MaxResgatados 
         { 
             get { return _maxResgatados; } 
