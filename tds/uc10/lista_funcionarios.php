@@ -52,4 +52,37 @@ $funcionarios = [
     ['id' => 49, 'nome_completo' => 'Diego Pereira', 'setor' => 'Produção', 'cargo' => 'Consultor', 'telefone' => '(68) 93210-9876', 'email' => 'diego.pereira@empresa-show.net'],
     ['id' => 50, 'nome_completo' => 'Erika Souza', 'setor' => 'Suporte', 'cargo' => 'Operador', 'telefone' => '(69) 92109-8765', 'email' => 'erika.souza@empresa-show.net']
 ];
+
+$produtos = [
+    ['id' => 1, 'nome' => 'Arroz Integral 1kg', 'preco' => 7.90, 'fabricante' => 'Tio João', 'qtd_estoque' => 150, 'lote' => 'A2025-01', 'validade' => '2026-08-15'],
+    ['id' => 2, 'nome' => 'Feijão Carioca 1kg', 'preco' => 8.50, 'fabricante' => 'Camil', 'qtd_estoque' => 200, 'lote' => 'B2025-02', 'validade' => '2026-07-20'],
+    ['id' => 3, 'nome' => 'Óleo de Soja 900ml', 'preco' => 6.99, 'fabricante' => 'Soya', 'qtd_estoque' => 180, 'lote' => 'C2025-03', 'validade' => '2026-06-10'],
+    ['id' => 4, 'nome' => 'Macarrão Espaguete 500g', 'preco' => 3.75, 'fabricante' => 'Renata', 'qtd_estoque' => 300, 'lote' => 'D2025-04', 'validade' => '2027-05-30'],
+    ['id' => 5, 'nome' => 'Açúcar Refinado 1kg', 'preco' => 4.20, 'fabricante' => 'União', 'qtd_estoque' => 220, 'lote' => 'E2025-05', 'validade' => '2027-04-12'],
+    ['id' => 6, 'nome' => 'Leite Integral 1L', 'preco' => 5.49, 'fabricante' => 'Parmalat', 'qtd_estoque' => 90, 'lote' => 'F2025-06', 'validade' => '2025-12-05'],
+    ['id' => 7, 'nome' => 'Café em Pó 250g', 'preco' => 12.90, 'fabricante' => 'Pilão', 'qtd_estoque' => 110, 'lote' => 'G2025-07', 'validade' => '2026-11-18'],
+    ['id' => 8, 'nome' => 'Sabonete Líquido 200ml', 'preco' => 8.30, 'fabricante' => 'Dove', 'qtd_estoque' => 70, 'lote' => 'H2025-08', 'validade' => '2027-03-22'],
+    ['id' => 9, 'nome' => 'Shampoo Anticaspa 400ml', 'preco' => 18.90, 'fabricante' => 'Clear', 'qtd_estoque' => 85, 'lote' => 'I2025-09', 'validade' => '2027-02-14'],
+    ['id' => 10, 'nome' => 'Creme Dental 90g', 'preco' => 6.50, 'fabricante' => 'Colgate', 'qtd_estoque' => 130, 'lote' => 'J2025-10', 'validade' => '2026-09-30'],
+    ['id' => 11, 'nome' => 'Papel Higiênico 4un', 'preco' => 9.99, 'fabricante' => 'Neve', 'qtd_estoque' => 250, 'lote' => 'K2025-11', 'validade' => '2028-01-10'],
+    ['id' => 12, 'nome' => 'Detergente Líquido 500ml', 'preco' => 3.20, 'fabricante' => 'Ypê', 'qtd_estoque' => 320, 'lote' => 'L2025-12', 'validade' => '2027-06-25'],
+    ['id' => 13, 'nome' => 'Sabão em Pó 1kg', 'preco' => 11.80, 'fabricante' => 'Omo', 'qtd_estoque' => 140, 'lote' => 'M2025-13', 'validade' => '2026-10-08'],
+    ['id' => 14, 'nome' => 'Amaciante 2L', 'preco' => 14.50, 'fabricante' => 'Comfort', 'qtd_estoque' => 95, 'lote' => 'N2025-14', 'validade' => '2026-12-20'],
+    ['id' => 15, 'nome' => 'Biscoito Recheado 140g', 'preco' => 2.99, 'fabricante' => 'Bono', 'qtd_estoque' => 400, 'lote' => 'O2025-15', 'validade' => '2026-04-05'],
+    ['id' => 16, 'nome' => 'Suco de Laranja 1L', 'preco' => 7.80, 'fabricante' => 'Del Valle', 'qtd_estoque' => 120, 'lote' => 'P2025-16', 'validade' => '2025-11-30'],
+    ['id' => 17, 'nome' => 'Refrigerante Cola 2L', 'preco' => 6.50, 'fabricante' => 'Coca-Cola', 'qtd_estoque' => 180, 'lote' => 'Q2025-17', 'validade' => '2026-03-15'],
+    ['id' => 18, 'nome' => 'Cerveja Lata 350ml', 'preco' => 3.90, 'fabricante' => 'Skol', 'qtd_estoque' => 500, 'lote' => 'R2025-18', 'validade' => '2026-05-20'],
+    ['id' => 19, 'nome' => 'Água Mineral 500ml', 'preco' => 1.80, 'fabricante' => 'Crystal', 'qtd_estoque' => 600, 'lote' => 'S2025-19', 'validade' => '2027-08-01'],
+    ['id' => 20, 'nome' => 'Pão de Forma 500g', 'preco' => 5.90, 'fabricante' => 'Pullman', 'qtd_estoque' => 160, 'lote' => 'T2025-20', 'validade' => '2025-10-28'],
+    ['id' => 21, 'nome' => 'Manteiga 200g', 'preco' => 9.90, 'fabricante' => 'Qualy', 'qtd_estoque' => 75, 'lote' => 'U2025-21', 'validade' => '2025-12-10'],
+    ['id' => 22, 'nome' => 'Queijo Mussarela 200g', 'preco' => 12.50, 'fabricante' => 'Tirol', 'qtd_estoque' => 60, 'lote' => 'V2025-22', 'validade' => '2025-11-25'],
+    ['id' => 23, 'nome' => 'Presunto Fatiado 150g', 'preco' => 8.70, 'fabricante' => 'Sadia', 'qtd_estoque' => 80, 'lote' => 'W2025-23', 'validade' => '2025-11-18'],
+    ['id' => 24, 'nome' => 'Iogurte Natural 170g', 'preco' => 2.50, 'fabricante' => 'Nestlé', 'qtd_estoque' => 200, 'lote' => 'X2025-24', 'validade' => '2025-11-05'],
+    ['id' => 25, 'nome' => 'Ovos Brancos 12un', 'preco' => 11.90, 'fabricante' => 'Granja Mantiqueira', 'qtd_estoque' => 100, 'lote' => 'Y2025-25', 'validade' => '2025-11-12'],
+    ['id' => 26, 'nome' => 'Fralda Descartável P', 'preco' => 39.90, 'fabricante' => 'Pampers', 'qtd_estoque' => 45, 'lote' => 'Z2025-26', 'validade' => '2027-09-30'],
+    ['id' => 27, 'nome' => 'Absorvente Noturno 8un', 'preco' => 7.50, 'fabricante' => 'Always', 'qtd_estoque' => 110, 'lote' => 'AA2025-27', 'validade' => '2028-02-15'],
+    ['id' => 28, 'nome' => 'Pilhas AA 4un', 'preco' => 15.90, 'fabricante' => 'Duracell', 'qtd_estoque' => 90, 'lote' => 'BB2025-28', 'validade' => '2029-06-10'],
+    ['id' => 29, 'nome' => 'Lâmpada LED 9W', 'preco' => 19.90, 'fabricante' => 'Philips', 'qtd_estoque' => 55, 'lote' => 'CC2025-29', 'validade' => '2030-12-31'],
+    ['id' => 30, 'nome' => 'Desinfetante 1L', 'preco' => 8.90, 'fabricante' => 'Pinho Sol', 'qtd_estoque' => 130, 'lote' => 'DD2025-30', 'validade' => '2026-08-20']
+];
 ?>
