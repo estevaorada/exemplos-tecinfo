@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Usuário</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .titulo {
+      font-weight: 600;
+    }
+    /* Classe de estilo para os dados que serão exibidos */
+    .dados-label {
+      font-weight: 500;
+      color: #495057;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container py-5">
+  <div class="row g-4">
+
+    <!-- Coluna 1 - Formulário -->
+    <div class="col-md-6">
+      <div class="card p-4">
+        <h4 class="mb-4 titulo">Cadastro</h4>
+
+        <div class="mb-3">
+          <label class="form-label">Nome Completo</label>
+          <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Idade</label>
+          <input type="number" id="idade" class="form-control" placeholder="Digite sua idade">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Endereço</label>
+          <input type="text" id="endereco" class="form-control" placeholder="Rua, número...">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Cidade</label>
+          <input type="text" id="cidade" class="form-control" placeholder="Digite sua cidade">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Estado</label>
+          <select id="estado" class="form-select">
+            <option value="">Selecione</option>
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+            <option>ES</option>
+            <option>PR</option>
+            <option>SC</option>
+            <option>RS</option>
+            <option>BA</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary w-100">Cadastrar</button>
+      </div>
+    </div>
+
+    <!-- Coluna 2 - Exibição -->
+    <div class="col-md-6">
+      <div class="card p-4">
+        <h4 class="mb-4 titulo">Dados Cadastrados</h4>
+
+        <div id="resultado" class="text-muted">
+          Nenhum dado cadastrado ainda.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// Insira aqui o código JS:
+</script>
+
+</body>
+</html>
